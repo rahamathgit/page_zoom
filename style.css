@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.parent{
+    position: fixed;
+    background-color: rgb(121, 101, 77);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.parent a{
+    text-decoration: none;
+    color: white;
+    padding: 0 40px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+.parent a:hover{
+    transition-duration: 0.9s;
+    color: black;
+}
+
+.list{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bg-img{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.dogtas.com/images/thumbs/002/0020951_blue-sofa-set.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 130%;
+}
+
+.box p{
+    font-size: 30px;
+    line-height: 50px;
+    color: gray;
+}
+
+.box h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.box{
+    padding: 80px 100px;
+}
